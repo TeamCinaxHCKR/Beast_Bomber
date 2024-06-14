@@ -1,15 +1,15 @@
 """
 ╔═════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                 ║
-║                                   Beast bomber                                  ║
+║                                   Cinax bomber                                  ║
 ║  Author:                                                                        ║
-║  https://github.com/crut0i                                                      ║
+║  https://github.com/TeamCinaxHCKR                                               ║
 ║                                                                                 ║
 ║  The author of this program is not responsible for its use!                     ║
 ║  When posting this code on other resources, please indicate the author!         ║
 ║                                                                                 ║
 ║                               All rights reserved.                              ║
-║                            Copyright (C) 2023 crut0i                            ║
+║                            Copyright (C) 2024 Cinax                             ║
 ║                                                                                 ║
 ╚═════════════════════════════════════════════════════════════════════════════════╝
 """
@@ -54,16 +54,16 @@ class BeastBomber:
 
             if self.lang == 'ru':
                 text = """
-        Спасибо за использование Beast bomber!
+        Спасибо за использование Cinax bomber!
 Автор будет благодарен, если Вы поставите звезду на GitHub:
         https://github.com/crut0i/Beast_Bomber
               Copyright (C) 2023 crut0i """
             else:
                 text = """
-            Thanks for using Beast bomber!
+            Thanks for using Cinax bomber!
 The author would appreciate it if you would put a star on 
               this repository on GitHub:
-        https://github.com/crut0i/Beast_Bomber
+        https://github.com/TeamCinaxHCKR/Beast_Bomber
               Copyright (C) 2023 crut0i """
 
             print(fade.purplepink(text))
@@ -77,7 +77,7 @@ The author would appreciate it if you would put a star on
 
     def main(self):
         if platform == 'win32':
-            ctypes.windll.kernel32.SetConsoleTitleW("Beast Bomber 💣")
+            ctypes.windll.kernel32.SetConsoleTitleW("Cinax Bomber 💣")
 
         if platform == 'win32':
             os.system("cls")
